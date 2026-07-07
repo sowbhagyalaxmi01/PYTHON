@@ -127,4 +127,34 @@ for i, ch in enumerate(s):
     if ch == target:
         result.append(i)
 
-print(result)      
+print(result)    
+
+#Count the number of words.
+s = "madam"
+words = s.split()
+print(len(words))
+#loop
+count = 0
+for word in s.split():
+    count += 1
+print(count)
+
+
+#Reverse every word in a sentence.
+s = "I am working hard for job"
+words = s.split()
+for word in words:
+    print(word[::-1], end=" ")
+
+#Reverse the order of words.
+s = "I am learning Python"
+words = s.split()
+rev = words[::-1]
+print(" ".join(rev))
+
+#Capitalize the first letter of every word.
+s = "i am learning python"
+print(s.title())
+#using capatilalize
+s = "i am learning python"
+print(s.title())
