@@ -143,3 +143,54 @@ if age >= 18:
 # Age is below 18
 else:
     print("Not Eligible")                
+
+#Login System
+username=input("enter username:")
+password=input("enter password:")
+if username=="admin":
+    if password=="admin123":
+        print("Login Successful")
+    else:
+        print("Incorrect Password")    
+else:
+    print("Invalid Username")       
+
+
+#Largest of Three Numbers
+a=int(input("enter first number:"))
+b=int(input("enter second number:"))
+c=int(input("enter third number:"))
+if a >=b and a>=c:
+    print(a,"is greatest number ")
+elif b>=c and b>=a:
+    print(b,"is greatest number")
+else:
+    print(c," is greast number")
+
+#Leap Year
+year=int(input("enter a year:"))
+if (year % 400==0) or (year % 4==0 and year % 100!=0):
+    print(year,"Leap Year")
+else:
+    print(year,"Not a Leap Year")
+
+#Vowel or Consonant
+ch=input("enter a charcter:")
+if ch in "aeiouAEIOU":#len(ch)==1
+    print("Vowel")
+else:
+    print("Consonant")
+
+#Discount Calculator
+amount=float(input("enter purchase amount:"))
+if amount >=6000:
+    discount=amount*0.20
+elif amount>=2500:
+    discount=amount*0.10
+else:
+    discount=0
+final_amount=amount-discount
+print("Discount=",discount)
+print("Final Amount=",final_amount)
+
+
