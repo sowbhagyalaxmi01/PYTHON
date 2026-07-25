@@ -93,7 +93,6 @@ for i in range(1, n):
 
     print()       
 
-
 # Christmas Tree
 
 # -------- Small Pyramid --------
