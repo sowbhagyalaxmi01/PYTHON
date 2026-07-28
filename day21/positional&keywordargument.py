@@ -1,3 +1,11 @@
+#parameter are variables in function definition(a,b)
+#Arguments actual values passed during function call(23,44)
+#An argument is the actual value that we pass to a function when calling it.they are 4 types
+# 1.Positional arguments
+# 2.Keyword arguments
+# 3.Default arguments
+# 4.Variable-length arguments (*args, **kwargs)
+
 #A positional argument is an argument passed to a function based on the order in which the parameters are defined
 #Values are passed according to their position/order
 def student(name, age):
