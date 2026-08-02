@@ -27,7 +27,7 @@ def palindrome(s):
         return "palindrome"
     else:
         return "not palindrome"
-print (palindrome("sdfg"))    
+
 
   
 #
