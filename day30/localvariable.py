@@ -10,7 +10,7 @@ display()
 def test():
     x = 10
 test()
-print(x)#NameError:name 'x' is not defined
+#print(x)#NameError:name 'x' is not defined
 
 
 #Local variable created only when function runs
