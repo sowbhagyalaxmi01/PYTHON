@@ -12,7 +12,7 @@ def student(name, age):
     print(name)
     print(age)
 
-student("Sowbhagya", 21)#"Sowbhagya" → name because it is in 1st position
+student("Sowbhagya",21)#"Sowbhagya" → name because it is in 1st position
                         #21 → age because it is in 2nd position
 
 
