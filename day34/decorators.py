@@ -1,5 +1,11 @@
 #A decorator is used to add extra behavior to an existing function without changing its original code.
 # @decorator is just a shorter way of applying the decorator to the function.
+# The decorator function receives the original function.
+# The wrapper function adds the extra behavior.
+# @decorator connects them.
+# When you call the original function name, you're actually calling the wrapper.
+
+
 
 # This is the decorator function
 # It receives the original function as an argument
