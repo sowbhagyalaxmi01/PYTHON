@@ -23,7 +23,6 @@
 # matplotlib – Data visualization
 # requests – HTTP requests
 
-
 #Advantages of Modules
 # Promotes code reusability.
 # Makes programs organized and modular.
