@@ -16,7 +16,6 @@ c1.basic()
 #c1.maincar()
 """
 
-"""
 
 class Animal:
     def speak(self):
@@ -29,8 +28,7 @@ class Dog(Animal):
 
 d = Dog()
 d.speak()
-#d.sk()
-"""
+d.sk()
 
 #parent class- Employee-method, child class developer-method- create obj for developer class 
 #with the help of it access the parent class method
@@ -46,7 +44,7 @@ d.speak()
 
 
 #multiple inheritance------
-"""
+
 class A:
     def aa(self):
         print("class  A")
@@ -68,11 +66,11 @@ objc = C() #child
 objc.aa()
 objc.bb()
 objc.cc()
-"""
+
 
 #multilevel inheritance-----
 
-"""
+
 class A: #grand parent
     def aa(self):
         print("class  A")
@@ -86,12 +84,11 @@ class C(B): #child
         print("class C")
 
 
-#b = B()
-#b.aa()
+b = B()
+b.aa()
 c = C()
 c.bb()
 c.aa()
-"""
 
 # Hierarchical Inheritance-----------
 
