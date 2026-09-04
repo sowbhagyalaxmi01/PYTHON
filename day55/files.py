@@ -4,7 +4,6 @@ with open("day32.txt", "w") as file:
 
 with open("day32.txt", "r") as file:
     data = file.read()
-
 print(data)    
 
 
@@ -19,12 +18,10 @@ with open("day32.txt", "a") as file:
 with open("day32.txt", "r") as file:
     line1 = file.readline()
     print(line1)
-
     line2 = file.readline()
     print(line2)    
 
-
+    
 with open("day32.txt", "r") as file:
     lines = file.readlines()
-
 print(lines)    
