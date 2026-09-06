@@ -1,7 +1,6 @@
 #File handling in Python means creating, opening, reading, writing, and managing files such as .txt, .csv, .json, etc.
 
 #2. Main file operations
-# You should learn these in this order:
 # Open a file
 # Read a file
 # Write to a file
