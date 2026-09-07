@@ -1,5 +1,7 @@
 #File handling in Python means creating, opening, reading, writing, and managing files such as .txt, .csv, .json, etc.
 
+
+
 #2. Main file operations
 # Open a file
 # Read a file
@@ -12,11 +14,15 @@
 # Working with CSV files
 # Working with JSON files
 
+
+
 # Why do we use files?
 # To store data permanently.
 # To retrieve data later.
 # To handle large amounts of data.
 # To share data between programs.
+
+
 
 # File Modes
 # Mode	Meaning
