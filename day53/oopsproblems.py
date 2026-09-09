@@ -110,6 +110,7 @@ class Calculator:
 
     def divide(self, a, b):
         return a / b
+    
 c = Calculator()
 print(c.add(10, 5))
 print(c.subtract(10, 5))
