@@ -1,5 +1,4 @@
 # Types of Files
-
 # There are two major categories.
 # A. Text files
 # Human-readable data.
@@ -29,7 +28,6 @@
 
 #  File Path
 # A path tells Python where a file is located.
-
 # Example:
 # C:\Users\User\Desktop\data.txt
 
