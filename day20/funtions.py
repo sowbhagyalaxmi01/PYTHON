@@ -25,14 +25,3 @@ def greet():
 
 result = greet()
 print(result)#None
-
-
-      
-
-
-
-
-
-
-      
-            #None
