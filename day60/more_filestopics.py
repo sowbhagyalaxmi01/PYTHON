@@ -54,11 +54,11 @@
 # path = Path("data") / "student.csv"
 # Remember:
 # os       → traditional/common
-# pathlib  → modern/professional ⭐
+# pathlib  → modern/professional 
 
 
 
-# 4. CSV Files ⭐⭐⭐
+# 4. CSV Files
 # CSV = Comma-Separated Values.
 # Used for tabular data.
 # Data is organized into rows and columns.
@@ -95,7 +95,7 @@
 
 
 
-# 5. JSON Files ⭐⭐⭐
+# 5. JSON Files
 # JSON = JavaScript Object Notation.
 # Used for storing and exchanging structured data.
 # Very common in:
@@ -122,7 +122,7 @@
 # dumps  → Python → string
 
 
-# ⭐ Quick Revision Table
+#  Quick Revision Table
 # Topic	Main Purpose	Important Things
 # File Paths	Locate files/folders	Absolute, Relative
 # os	OS/file operations	listdir, mkdir, remove
