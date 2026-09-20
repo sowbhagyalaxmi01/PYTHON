@@ -70,14 +70,6 @@ def sum(n):
 print(sum(5))    
 
 
-#Find the factorial of N using recursion.
-def fact(n):
-    if n==1:
-        return 1
-    return n*fact(n-1)
-print(fact(5))
-
-
 # Sum of digits
 def sum(n):
     if n==0:
