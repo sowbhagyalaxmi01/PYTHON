@@ -77,14 +77,13 @@ def sum(n):
     return n%10+sum(n//10)
 print(sum(1234))
 
+
 #Find the largest digit
 def largest(n):
     if n == 0:
         return 0
-
     return max(n % 10, largest(n // 10))
 print(largest(123445))
-
 
 #Find the smallest digit
 def smallest(n):
@@ -92,3 +91,4 @@ def smallest(n):
         return n
     return min(n % 10, smallest(n // 10))
 print(smallest(12345))
+
