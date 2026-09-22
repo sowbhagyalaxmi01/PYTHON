@@ -123,9 +123,7 @@ print(valid)
 #Check whether a user is eligible for a free trial based on account status and previous trial usage.
 account_active = True
 previous_trial_used = False
-
 eligible = account_active and not previous_trial_used
-
 print(eligible)
 
 
